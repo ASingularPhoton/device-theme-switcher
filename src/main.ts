@@ -8,10 +8,6 @@ import {
 
 const NOSWITCH = "Don't switch";
 
-/**
- * Minimal internal interface for Obsidian APIs
- * not exposed in public typings.
- */
 interface ObsidianAppInternal {
 	changeTheme(theme: "obsidian" | "moonstone"): void;
 }
